@@ -76,7 +76,7 @@ plugins:
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `assets/` directory.
-favicon: /assets/avatar.
+favicon: /assets/images/avatar.gif
 
 # Set default keywords (Use a comma to separate)
 keywords: "Jekyll, NexT"
@@ -123,8 +123,7 @@ menu:
   #categories: /categories/
   tags: /tags/
   categories: /navigator/
-  teach: /teach/
-  #sitemap: /menual/
+ #sitemap: /menual/
   #commonweal: /404.html
 
 
@@ -144,7 +143,6 @@ menu_icons:
   archives: archive
   sitemap: sitemap
   commonweal: heartbeat
-  teach: users
 
 # ---------------------------------------------------------------
 # Scheme Settings
@@ -168,13 +166,13 @@ font:
   enable: true
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
-  host:
+  host: https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css
 
   # Global font settings used on <body> element.
   global:
     # external: true will load this font family from host.
     external: true
-    family: Lato
+    family: Pretendard Variable
 
   # Font settings for Headlines (h1, h2, h3, h4, h5, h6)
   # Fallback to `global` font settings.
@@ -228,7 +226,6 @@ social_icons:
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
   Twitter: twitter
-  Weibo: weibo
 
 
 # Sidebar Avatar
